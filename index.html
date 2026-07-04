@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bazar el Monstruo</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ===== Navbar ===== -->
+  <nav class="navbar">
+    <a href="index.html" class="navbar-brand">
+      <span class="monster-icon">👾</span> Bazar el Monstruo
+    </a>
+    <button class="navbar-toggle" aria-label="Menú">☰</button>
+    <ul class="navbar-nav">
+      <li><a href="index.html"        class="nav-link">Inicio</a></li>
+      <li><a href="galeria.html"      class="nav-link">Galería</a></li>
+      <li><a href="promociones.html"  class="nav-link">Promociones</a></li>
+      <li><a href="ubicacion.html"    class="nav-link">Ubicación</a></li>
+      <li class="nav-cart">
+        <a href="carrito.html" class="nav-link">🛒 Carrito</a>
+        <span class="cart-badge">0</span>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero">
+    <div class="hero-icon">👾</div>
+    <h1>Bazar el Monstruo</h1>
+    <p class="tagline">¡Los mejores precios del barrio! Ropa, accesorios, juguetes y mucho más.</p>
+    <div class="hero-btns">
+      <a href="galeria.html"     class="btn btn-primary">🛍️ Ver productos</a>
+      <a href="promociones.html" class="btn btn-secondary">🔥 Ver promociones</a>
+      <a href="https://wa.me/525584192229" target="_blank" class="btn btn-whatsapp">📲 WhatsApp</a>
+    </div>
+  </section>
+
+  <!-- ===== Contacto ===== -->
+  <section class="contact-section">
+    <h2>📬 Contáctanos</h2>
+    <div class="contact-cards">
+      <div class="contact-card">
+        <div class="icon">📞</div>
+        <h3>Teléfono</h3>
+        <p><a href="tel:5584192229">55 8419 2229</a></p>
+      </div>
+      <div class="contact-card">
+        <div class="icon">📧</div>
+        <h3>Correo electrónico</h3>
+        <p><a href="mailto:bazarelmostruo@gmail.com">bazarelmostruo@gmail.com</a></p>
+      </div>
+      <div class="contact-card">
+        <div class="icon">💬</div>
+        <h3>WhatsApp</h3>
+        <p><a href="https://wa.me/525584192229" target="_blank">Escríbenos ahora</a></p>
+      </div>
+      <div class="contact-card">
+        <div class="icon">📍</div>
+        <h3>Ubicación</h3>
+        <p><a href="ubicacion.html">Ver en el mapa</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA rápido ===== -->
+  <section style="background:var(--secondary);padding:2.5rem 1.5rem;text-align:center;color:#fff">
+    <h2 style="margin-bottom:.5rem">¿Listo para armar tu pedido? 🛒</h2>
+    <p style="opacity:.85;margin-bottom:1.25rem">Navega por la galería, agrega productos al carrito y envíanos tu pedido por WhatsApp.</p>
+    <a href="galeria.html" class="btn btn-primary">Explorar galería</a>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <p>© 2026 <strong>Bazar el Monstruo</strong> ·
+       <a href="tel:5584192229">55 8419 2229</a> ·
+       <a href="mailto:bazarelmostruo@gmail.com">bazarelmostruo@gmail.com</a>
+    </p>
+  </footer>
+
+  <div id="toast"></div>
+  <script src="js/main.js"></script>
+</body>
+</html>

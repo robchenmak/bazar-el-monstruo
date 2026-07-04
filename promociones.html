@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Promociones – Bazar el Monstruo</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ===== Navbar ===== -->
+  <nav class="navbar">
+    <a href="index.html" class="navbar-brand">
+      <span class="monster-icon">👾</span> Bazar el Monstruo
+    </a>
+    <button class="navbar-toggle" aria-label="Menú">☰</button>
+    <ul class="navbar-nav">
+      <li><a href="index.html"        class="nav-link">Inicio</a></li>
+      <li><a href="galeria.html"      class="nav-link">Galería</a></li>
+      <li><a href="promociones.html"  class="nav-link">Promociones</a></li>
+      <li><a href="ubicacion.html"    class="nav-link">Ubicación</a></li>
+      <li class="nav-cart">
+        <a href="carrito.html" class="nav-link">🛒 Carrito</a>
+        <span class="cart-badge">0</span>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- ===== Contenido ===== -->
+  <main class="page-container">
+    <h1 class="section-title">🔥 Promociones</h1>
+    <p class="section-subtitle">¡Aprovecha nuestras ofertas por tiempo limitado!</p>
+
+    <!-- Sección destacadas (se renderiza dinámicamente) -->
+    <div id="promos-destacadas"></div>
+
+    <!-- Todas las promos -->
+    <div class="promos-grid" id="promos-grid">
+      <p style="text-align:center;color:#999;grid-column:1/-1">Cargando promociones…</p>
+    </div>
+
+    <!-- CTA WhatsApp -->
+    <div style="text-align:center;margin-top:2.5rem">
+      <p style="margin-bottom:.75rem;color:var(--text-light)">¿Tienes dudas sobre alguna promoción?</p>
+      <a href="https://wa.me/525584192229?text=Hola,%20quisiera%20información%20sobre%20sus%20promociones"
+         target="_blank" class="btn btn-whatsapp">
+        📲 Consultar por WhatsApp
+      </a>
+    </div>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <p>© 2026 <strong>Bazar el Monstruo</strong> ·
+       <a href="tel:5584192229">55 8419 2229</a> ·
+       <a href="mailto:bazarelmostruo@gmail.com">bazarelmostruo@gmail.com</a>
+    </p>
+  </footer>
+
+  <div id="toast"></div>
+  <script src="js/main.js"></script>
+  <script src="js/promociones.js"></script>
+</body>
+</html>

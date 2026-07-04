@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "nombre": "Blusa floral mujer",
+    "categoria": "Ropa",
+    "precio": 120,
+    "descripcion": "Blusa de tela ligera con estampado floral, tallas S-XL.",
+    "emoji": "👚",
+    "imagen": "img/producto1.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Pantalón de mezclilla",
+    "categoria": "Ropa",
+    "precio": 250,
+    "descripcion": "Pantalón de mezclilla clásico, corte recto, tallas 28-36.",
+    "emoji": "👖",
+    "imagen": "img/producto2.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Vestido de verano",
+    "categoria": "Ropa",
+    "precio": 180,
+    "descripcion": "Vestido casual ideal para el calor, varios colores disponibles.",
+    "emoji": "👗",
+    "imagen": "img/producto3.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Playera estampada",
+    "categoria": "Ropa",
+    "precio": 90,
+    "descripcion": "Playera 100% algodón con estampados variados, unisex.",
+    "emoji": "👕",
+    "imagen": "img/producto4.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Bolsa de mano",
+    "categoria": "Accesorios",
+    "precio": 200,
+    "descripcion": "Bolsa de mano sintética, varios colores, con bolsillos internos.",
+    "emoji": "👜",
+    "imagen": "img/producto5.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Cinturón de piel",
+    "categoria": "Accesorios",
+    "precio": 80,
+    "descripcion": "Cinturón de cuero sintético, tallas S-XL, varios colores.",
+    "emoji": "🪢",
+    "imagen": "img/producto6.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Set de aretes y collar",
+    "categoria": "Accesorios",
+    "precio": 60,
+    "descripcion": "Juego de aretes y collar de fantasía, varios estilos.",
+    "emoji": "📿",
+    "imagen": "img/producto7.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "Gorra bordada",
+    "categoria": "Accesorios",
+    "precio": 70,
+    "descripcion": "Gorra ajustable con bordado frontal, diseños variados.",
+    "emoji": "🧢",
+    "imagen": "img/producto8.jpg"
+  },
+  {
+    "id": 9,
+    "nombre": "Set de cocina 5 piezas",
+    "categoria": "Hogar",
+    "precio": 350,
+    "descripcion": "Juego de utensilios de cocina: espátula, cuchara, cucharón, etc.",
+    "emoji": "🍳",
+    "imagen": "img/producto9.jpg"
+  },
+  {
+    "id": 10,
+    "nombre": "Juego de tazas x4",
+    "categoria": "Hogar",
+    "precio": 140,
+    "descripcion": "Set de 4 tazas de cerámica coloridas, 350ml cada una.",
+    "emoji": "☕",
+    "imagen": "img/producto10.jpg"
+  },
+  {
+    "id": 11,
+    "nombre": "Muñeca de tela artesanal",
+    "categoria": "Juguetes",
+    "precio": 75,
+    "descripcion": "Muñeca hecha a mano, rellena de algodón, apta para niños.",
+    "emoji": "🪆",
+    "imagen": "img/producto11.jpg"
+  },
+  {
+    "id": 12,
+    "nombre": "Set de carros de juguete",
+    "categoria": "Juguetes",
+    "precio": 110,
+    "descripcion": "Set de 6 carros de plástico resistente para niños.",
+    "emoji": "🚗",
+    "imagen": "img/producto12.jpg"
+  }
+]

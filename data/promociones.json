@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "titulo": "2x1 en Blusas",
+    "descripcion": "Llévate dos blusas al precio de una. ¡Elige tus favoritas!",
+    "descuento": "50%",
+    "categoria": "Ropa",
+    "emoji": "👚",
+    "vigencia": "Hasta el 31 de julio 2026",
+    "destacada": true,
+    "precioOriginal": 120,
+    "precioOferta": 60
+  },
+  {
+    "id": 2,
+    "titulo": "Playeras a $70",
+    "descripcion": "Todas las playeras estampadas a solo $70 pesos. ¡No te las pierdas!",
+    "descuento": "22%",
+    "categoria": "Ropa",
+    "emoji": "👕",
+    "vigencia": "Hasta el 15 de julio 2026",
+    "destacada": false,
+    "precioOriginal": 90,
+    "precioOferta": 70
+  },
+  {
+    "id": 3,
+    "titulo": "Bolsa + Cinturón $240",
+    "descripcion": "Combo especial: bolsa de mano + cinturón de piel a precio de combo.",
+    "descuento": "15%",
+    "categoria": "Accesorios",
+    "emoji": "👜",
+    "vigencia": "Hasta el 20 de julio 2026",
+    "destacada": true,
+    "precioOriginal": 280,
+    "precioOferta": 240
+  },
+  {
+    "id": 4,
+    "titulo": "Set aretes y collar gratis",
+    "descripcion": "Con cualquier compra mayor a $300 llévate un set de aretes y collar gratis.",
+    "descuento": "Regalo",
+    "categoria": "Accesorios",
+    "emoji": "📿",
+    "vigencia": "Todo julio 2026",
+    "destacada": true,
+    "precioOriginal": 60,
+    "precioOferta": 0
+  },
+  {
+    "id": 5,
+    "titulo": "Set cocina a $299",
+    "descripcion": "Set de cocina 5 piezas con descuento especial de temporada.",
+    "descuento": "15%",
+    "categoria": "Hogar",
+    "emoji": "🍳",
+    "vigencia": "Hasta el 31 de julio 2026",
+    "destacada": false,
+    "precioOriginal": 350,
+    "precioOferta": 299
+  },
+  {
+    "id": 6,
+    "titulo": "Juguetes 3x2",
+    "descripcion": "Lleva 3 juguetes y paga solo 2. ¡Ideal para regalo!",
+    "descuento": "33%",
+    "categoria": "Juguetes",
+    "emoji": "🚗",
+    "vigencia": "Fines de semana de julio 2026",
+    "destacada": false,
+    "precioOriginal": null,
+    "precioOferta": null
+  }
+]
