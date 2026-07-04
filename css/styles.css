@@ -49,7 +49,13 @@ ul { list-style: none; }
   font-weight: 700;
   letter-spacing: .5px;
 }
-.navbar-brand .monster-icon { font-size: 1.6rem; }
+.navbar-brand .monster-icon {
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
 .navbar-nav {
   display: flex;
   gap: .25rem;
@@ -104,7 +110,14 @@ ul { list-style: none; }
   text-align: center;
   padding: 5rem 1.5rem 4rem;
 }
-.hero-icon { font-size: 5rem; margin-bottom: 1rem; animation: bounce 2s infinite; }
+.hero-icon {
+  width: 130px;
+  height: 130px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+  animation: bounce 2s infinite;
+  filter: drop-shadow(0 4px 12px rgba(0,0,0,.35));
+}
 @keyframes bounce {
   0%,100% { transform: translateY(0); }
   50%      { transform: translateY(-12px); }
