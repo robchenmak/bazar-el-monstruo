@@ -33,7 +33,11 @@ function renderProductos(productos) {
   }
   grid.innerHTML = productos.map(p => `
     <div class="product-card">
-      <div class="product-img">${p.emoji}</div>
+      <div class="product-img">
+        ${p.imagen
+          ? `<img src="${p.imagen}" alt="${p.nombre}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><span class="product-emoji" style="display:none">${p.emoji}</span>`
+          : `<span class="product-emoji">${p.emoji}</span>`}
+      </div>
       <div class="product-body">
         <div class="product-category">${p.categoria}</div>
         <div class="product-name">${p.nombre}</div>
